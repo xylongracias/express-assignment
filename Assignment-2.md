@@ -30,3 +30,8 @@ You have to implement the following API.
  * Should proide level a approval to a given service
  * Should read accesstoken and service id from the UI.
  > Should have a basic UI
+ 
+## API 6 : Check status of the service request.
+ * Should provide level a approval to a given service
+ * Should read Access Token and service id from the UI.
+ > Should have a basic UI

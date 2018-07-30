@@ -14,13 +14,13 @@ Implement the features requested in the assigment
 
 ### Step 3
 
-Create a PR agains this Branch
+Create a Pull request for the fork.
 
 > Note : Any PR to merge branch will not be entertained
 
 # Assignment List
-* [Service Status](./Assignment-1.md)
-* [Approval System](./Assignment-2.md)
+* [Service Status (Beginner)](./Assignment-1.md)
+* [Approval System (Intermediate)](./Assignment-2.md)
 
 # Instructions for the Assigment
  * You are free to add any package. Ensure that it is part fo package.json.
