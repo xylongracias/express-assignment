@@ -1,6 +1,6 @@
-#Instructions for adding code.
+# Instructions for adding code.
 
-##Prerequisites
+## Prerequisites
   * nodejs
   * npm
   
@@ -18,11 +18,11 @@ Create a PR agains this Branch
 
 > Note : Any PR to merge branch will not be entertained
 
-#Assignment List
+# Assignment List
 * [Service Status](./Assignment-1.md)
 * [Approval System](./Assignment-2.md)
 
-#Instructions for the Assigment
+# Instructions for the Assigment
  * You are free to add any package. Ensure that it is part fo package.json.
  * There should be a UI where I can specify the Input.
  * Error Handling should be proper. All validations should be handled.
