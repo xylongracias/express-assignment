@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chetandr/express-assignment/issues"
   },
-  "homepage": "https://github.com/chetandr/express-assignment#readme"
+  "homepage": "https://github.com/chetandr/express-assignment#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
