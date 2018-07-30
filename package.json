@@ -1,0 +1,19 @@
+{
+  "name": "express-assignment",
+  "version": "1.0.0",
+  "description": "Assignment to check the basic nodejs skills",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetandr/express-assignment.git"
+  },
+  "author": "Chetan Rane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetandr/express-assignment/issues"
+  },
+  "homepage": "https://github.com/chetandr/express-assignment#readme"
+}
