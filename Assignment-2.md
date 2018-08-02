@@ -121,14 +121,95 @@ You have to implement the following API.
 ## API 4 : Provide Level 1 Approval
  * Should proide level a approval to a given service
  * Should read accesstoken and service id from the UI.
+ * Request Structure
+ ```json
+ {
+  "request" : [
+    {
+      "sercviceId" : "IKJLH786", 
+      "accessToken" : "AFGH768I"
+    }
+  ]
+ }
+```
+* Response structure
+ ```json
+  {
+    "result" : [
+      {
+         "requestToken" : "IKJLH786"
+      }
+    ],
+    "status" : {
+        "code": "200",
+        "message" : "Succesfully Approved"
+    }
+  }
+  ```
  > Should have a basic UI
    
 ## API 5 : Provide Level 2 Approval 
  * Should proide level a approval to a given service
  * Should read accesstoken and service id from the UI.
+ * Should read accesstoken and service id from the UI.
+  * Request Structure
+  ```json
+  {
+   "request" : [
+     {
+       "sercviceId" : "IKJLH786", 
+       "accessToken" : "AFGH768I"
+     }
+   ]
+  }
+ ```
+ * Response structure
+  ```json
+   {
+     "result" : [
+       {
+          "requestToken" : "IKJLH786"
+       }
+     ],
+     "status" : {
+         "code": "200",
+         "message" : "Succesfully Approved"
+     }
+   }
+   ```
+   * Should check if the Level 1 approval is already provided. Level 2 should not be provided if level 1 is not granted
  > Should have a basic UI
  
 ## API 6 : Check status of the service request.
  * Should provide level a approval to a given service
  * Should read Access Token and service id from the UI.
+ * Request JSON should be
+ ```json
+{
+   "request" : [
+     {
+       "requestToken" : "IKJLH786"
+     }
+   ]
+  }
+```
+ Response structure
+   ```json
+    {
+      "result" : [
+        {
+           "requestToken" : "IKJLH786",
+           "approvals" : {
+            "stage" : "level1",
+            "Approver" : "Tom Hanks",
+            "Approver date" : "22/08/2018"
+           }
+        }
+      ],
+      "status" : {
+          "code": "200",
+          "message" : "Succesfully Approved"
+      }
+    }
+    ``` 
  > Should have a basic UI

@@ -43,4 +43,8 @@ Create a Pull request for the fork.
     }
   }
   ```
+  * ``npm start`` should start both node server and the front end application
+  * Error handling should be as per the following article [Error Handling in Node.js](https://www.joyent.com/node-js/production/design/errors)
+  * Error messages should be shown on the console or logged in a file based on the environment
+  * All server side code should have unit test cases written in [Jasmin](https://jasmine.github.io)
  
