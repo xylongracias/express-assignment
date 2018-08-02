@@ -34,12 +34,12 @@ Create a Pull request for the fork.
  * All UI should have a traversable Menu to access the appropriate actions.
  * For CSS use Bootstrap. If you use SASS or LESS it will fetch additional points.
  * All assignments should have a response with the following structure.
-  ```$xslt
+  ```json
   {
-    result : []
-    status : {
-        code: "numeric code"
-        message : "Message"
+    "result" : [],
+    "status" : {
+        "code": "numeric code",
+        "message" : "Message"
     }
   }
   ```
